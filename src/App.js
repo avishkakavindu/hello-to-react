@@ -1,6 +1,7 @@
 import './App.css';
-import { Greet } from './components/greets';
-import { Message } from './components/message';
+import { Greet } from './components/Greets';
+import { Message } from './components/Message';
+import { ClickHandler } from './components/ClickHandler';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
       useStates
       <hr />
       <Message />
+      <hr />
+      Event handling
+      <hr />
+      <ClickHandler />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { useState, setState } from 'react';
+import { useState } from 'react';
 
 export const Message = () => {
   const [message, setMessage] = useState('welcome visitor!');
