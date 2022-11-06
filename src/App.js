@@ -5,6 +5,9 @@ import { ClickHandler } from './components/ClickHandler';
 import { ParentComponent } from './components/ParentComponent';
 import { UserGreeting } from './components/UserGreeting';
 import { NameList } from './components/NameList';
+import { Stylesheet } from './components/Stylesheet';
+import './appStyles.css';
+import styles from './appStyles.module.css';
 
 function App() {
   return (
@@ -38,6 +41,12 @@ function App() {
       List rendering
       <hr />
       <NameList />
+      <hr />
+      Styling
+      <hr />
+      <Stylesheet />
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
     </div>
   );
 }
