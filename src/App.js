@@ -3,6 +3,7 @@ import { Greet } from './components/Greets';
 import { Message } from './components/Message';
 import { ClickHandler } from './components/ClickHandler';
 import { ParentComponent } from './components/ParentComponent';
+import { UserGreeting } from './components/UserGreeting';
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
       Parent child communication
       <hr />
       <ParentComponent />
+      <hr />
+      Conditional Rendering
+      <hr />
+      <UserGreeting />
     </div>
   );
 }
