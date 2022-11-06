@@ -2,6 +2,7 @@ import './App.css';
 import { Greet } from './components/Greets';
 import { Message } from './components/Message';
 import { ClickHandler } from './components/ClickHandler';
+import { ParentComponent } from './components/ParentComponent';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
       Event handling
       <hr />
       <ClickHandler />
+      <hr />
+      Parent child communication
+      <hr />
+      <ParentComponent />
     </div>
   );
 }
