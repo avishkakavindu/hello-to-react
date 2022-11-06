@@ -4,7 +4,6 @@ export const NameList = () => {
     <div>
       <ul>
         {name.map((name, key) => {
-          console.log(key);
           return <li>{name}</li>;
         })}
       </ul>
