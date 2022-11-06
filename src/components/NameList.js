@@ -3,7 +3,8 @@ export const NameList = () => {
   return (
     <div>
       <ul>
-        {name.map((name) => {
+        {name.map((name, key) => {
+          console.log(key);
           return <li>{name}</li>;
         })}
       </ul>
