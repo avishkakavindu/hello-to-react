@@ -1,3 +1,13 @@
 .error {
   color: red;
 }
+
+span {
+  color: red;
+  font-size: 10px;
+  display: none;
+}
+
+input:invalid[focused='true'] ~ span {
+  display: block;
+}
